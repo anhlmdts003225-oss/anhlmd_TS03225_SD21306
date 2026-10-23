@@ -2,8 +2,8 @@
 import { products as initialProducts, categories as initialCategories } from "./data.js";
 import { getOrders, saveOrders } from "./orders.js";
 
-const PRODUCTS_KEY   = "ap_products";
-const CATEGORIES_KEY = "ap_categories";
+const PRODUCTS_KEY   = "ap_products_v2";
+const CATEGORIES_KEY = "ap_categories_v2";
 const formatPrice    = amount => `${Number(amount).toLocaleString("vi-VN")}đ`;
 
 let productList  = [...initialProducts];
